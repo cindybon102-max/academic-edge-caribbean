@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your personalised learning dashboard - Academic Edge Caribbean">
+  <title>Dashboard - Academic Edge Caribbean</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" class="logo-img" alt="Academic Edge Caribbean">
+    </div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="#">Progress</a>
+      <a href="#">Support</a>
+    </nav>
+    <div class="nav-buttons">
+      <button type="button" class="login-btn">Logout</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- WELCOME -->
+    <section class="dashboard-header">
+      <h2>Welcome back 👋</h2>
+      <p>Today's Focus: Fractions (Mathematics)</p>
+    </section>
+
+    <!-- PROGRESS -->
+    <section class="progress-section" aria-label="Task progress">
+      <p>Progress: 2 / 5 tasks completed</p>
+      <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-fill" style="width: 40%;"></div>
+      </div>
+    </section>
+
+    <!-- SUBJECT CARDS -->
+    <section class="subjects" aria-label="Subject areas">
+      <div class="card math">
+        <h3>➗ Mathematics</h3>
+        <p>3 Tasks • Fractions &amp; Problem Solving</p>
+        <button type="button">Start Learning Mathematics</button>
+      </div>
+      <div class="card english">
+        <h3>📖 English</h3>
+        <p>2 Tasks • Comprehension &amp; Grammar</p>
+        <button type="button">Start Learning English</button>
+      </div>
+      <div class="card writing">
+        <h3>✍️ Creative Writing</h3>
+        <p>1 Task • Story Writing</p>
+        <button type="button">Start Learning Creative Writing</button>
+      </div>
+    </section>
+
+    <!-- TODAY'S TASK -->
+    <section class="today-task">
+      <h3>🎯 Today's Task</h3>
+      <p>Solve basic fraction problems and submit your answers.</p>
+      <button type="button" class="primary">Start Now</button>
+    </section>
+
+  </main>
+
+</body>
+</html>
