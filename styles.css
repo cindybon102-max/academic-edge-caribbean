@@ -265,3 +265,23 @@
 .auth-link a:hover {
   text-decoration: underline;
 }
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f7ff;
+color: #1a1a1a;
+}
+
+nav {
+background: #1e3a8a;
+padding: 15px;
+color: white;
+}
+
+button {
+background: #2563eb;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 8px;
+}
